@@ -13,6 +13,7 @@ h1, h2, h3, h4, h5, h6 { font-size: inherit;  padding:0;
   ._container{
     box-sizing: content-box;
     max-width: 1920px;
+    min-height: 100%;
     margin: 0px auto;
   }
 
@@ -23,13 +24,10 @@ h1, h2, h3, h4, h5, h6 { font-size: inherit;  padding:0;
     background-color: rgb(240, 225, 205);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: rgb(10, 7, 22);
+    min-height: 100vh;
   }
-
   /* ------------------------ style class -----------------------------*/
 
-  .modyfier{
-    width: 100%;
-  }
 
   .header {
     
@@ -65,6 +63,12 @@ h1, h2, h3, h4, h5, h6 { font-size: inherit;  padding:0;
     font-size: 30px;
   }
   .meme__wrap-icon {
+    transform: rotate(45deg);
+    transition-duration: 1.5s;
+  }
+  .meme__container:hover .meme__wrap-icon{
+    transition-duration: 0.5s;
+    transform: rotate(0deg);
   }
   .meme__icon {
     height: 25px;
@@ -72,6 +76,14 @@ h1, h2, h3, h4, h5, h6 { font-size: inherit;  padding:0;
   }
   .meme__wrap-image {
     align-self: center;
+    height: 0px;
+    overflow: hidden;
+    transition-duration: 0.5s;
   }
+ .meme__container:hover .meme__wrap-image{
+    height: 450px;
+    transition-duration: 1s;
+  }
+
   .meme__image-meme {
   }
