@@ -1,0 +1,77 @@
+/* -----------------NORMALIZE ------------------*/
+*{
+  padding: 0;
+  margin: 0;
+  border:0;
+}
+h1, h2, h3, h4, h5, h6 { font-size: inherit;  padding:0;
+  margin:0;
+  border:0;}
+
+  /*------------------- common style -----------------------*/
+
+  ._container{
+    box-sizing: content-box;
+    max-width: 1920px;
+    margin: 0px auto;
+  }
+
+  .wrap{
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    background-color: rgb(240, 225, 205);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(10, 7, 22);
+  }
+
+  /* ------------------------ style class -----------------------------*/
+
+  .modyfier{
+    width: 100%;
+  }
+
+  .header {
+    
+  }
+  .header__wrap-title{
+    display: flex;
+    justify-content: flex-start;
+    padding: 40px 0px 5px 25px;
+  }
+  .header__title {
+    font-size: 50px;
+    width: 100rem;
+  }
+  .main {
+  }
+  .meme__container {
+    display: flex;
+    flex-direction: column;
+    padding: 15px 0px;
+  }
+  .meme__line-decor {
+    width: 100em;
+    height: 3px;
+    background-color: chocolate;
+  }
+  .meme__wrap-aling {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 15px;
+  }
+  .meme__slogan {
+    font-size: 30px;
+  }
+  .meme__wrap-icon {
+  }
+  .meme__icon {
+    height: 25px;
+    width: 25px;
+  }
+  .meme__wrap-image {
+    align-self: center;
+  }
+  .meme__image-meme {
+  }
