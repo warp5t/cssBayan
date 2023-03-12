@@ -93,6 +93,9 @@ h1, h2, h3, h4, h5, h6 { font-size: inherit;  padding:0;
   .meme__slogan {
     font-size: 30px;
   }
+  .meme__slogan:hover {
+    cursor: pointer;
+  }
   @media(max-width:1340px){
     .meme__slogan {
       text-align: center;
@@ -145,6 +148,9 @@ h1, h2, h3, h4, h5, h6 { font-size: inherit;  padding:0;
     
   }
   .meme__image-meme {
+  }
+  .meme__image-meme:hover {
+    cursor: pointer;
   }
   @media(max-width:730px) {
     .meme__image-meme {
